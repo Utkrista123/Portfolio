@@ -37,14 +37,14 @@ def caluculate_mean(temp):
     means = mean(temp)
     return means
 
-def display(max, min, mean):
+def display(max, min, means):
     print("The maximum value is: ",max)
     print("The minimum value is: ",min)
-    print("The mean value is: ",mean)
+    print("The mean value is: ",means)
 
 
 temp = get()
 max = calculate_max(temp)
 min = calculate_min(temp)
-mean = caluculate_mean(temp)
-display(max, min, mean)
+means = caluculate_mean(temp)
+display(max, min, means)
